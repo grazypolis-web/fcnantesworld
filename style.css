@@ -1,10 +1,43 @@
+/* Corpo della pagina */
 body {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: auto;
-  background: #f5f5f5;
+  font-family: Arial, sans-serif; /* Font leggibile */
+  max-width: 800px;               /* Larghezza massima della pagina */
+  margin: auto;                   /* Centra la pagina orizzontalmente */
+  background: #f5f5f5;            /* Colore di sfondo chiaro */
+  padding: 20px;                  /* Spazio interno ai bordi della pagina */
 }
 
+/* Header (titolo o logo) */
+header {
+  text-align: center;             /* Centra il contenuto */
+  margin-bottom: 30px;            /* Spazio sotto l'header */
+}
+
+/* Titoli principali */
 h1 {
-  color: #2a4d9b;
+  color: #2a4d9b;                 /* Blu scuro */
+}
+
+h2 {
+  color: #2a4d9b;                 /* Stesso colore h1 */
+  border-bottom: 2px solid #2a4d9b; /* Linea sotto il titolo */
+  padding-bottom: 5px;
+}
+
+/* Sezioni */
+section {
+  background: white;              /* Sfondo bianco */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;            /* Angoli arrotondati */
+}
+
+/* Link */
+a {
+  color: #2a4d9b;                 /* Colore link */
+  text-decoration: none;          /* Rimuove sottolineatura */
+}
+
+a:hover {
+  color: #ff6600;                 /* Cambia colore al passaggio del mouse */
 }
