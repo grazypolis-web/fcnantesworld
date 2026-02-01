@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
-  <title>Il mondo del Nantes</title>
+  <title>Il mio primo sito</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Benvenuto</h1>
-  <p>Questo è il mio primo sito gratuito.</p>
+  <header>
+    <h1>Benvenuto nel mio sito</h1>
+  </header>
+
+  <section id="home">
+    <p>Questa è la home page del mio sito.</p>
+  </section>
+
+  <section id="articoli">
+    <h2>Articoli pubblicati</h2>
+    <ul>
+      <li><a href="articolo1.html">Articolo 1: Titolo interessante</a></li>
+    </ul>
+  </section>
 
 </body>
 </html>
